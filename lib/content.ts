@@ -23,13 +23,13 @@ export const hero = {
   availability:
     "Currently available for short-term projects and ongoing creative retainers.",
   reel: [
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/f_auto,q_auto,c_limit,w_640/v1780972863/reel-1_cckvgg.mp4", poster: "https://res.cloudinary.com/dbuvkbafj/video/upload/so_2,q_auto,w_640,c_limit/v1780972863/reel-1_cckvgg.jpg", label: "Reel 01" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/f_auto,q_auto,c_limit,w_640/v1780972871/reel-3_hhhb0d.mp4", poster: "https://res.cloudinary.com/dbuvkbafj/video/upload/so_2,q_auto,w_640,c_limit/v1780972871/reel-3_hhhb0d.jpg", label: "Reel 02" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/f_auto,q_auto,c_limit,w_640/v1780972875/reel-4_ivyub4.mp4", poster: "https://res.cloudinary.com/dbuvkbafj/video/upload/so_2,q_auto,w_640,c_limit/v1780972875/reel-4_ivyub4.jpg", label: "Reel 03" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/f_auto,q_auto,c_limit,w_640/v1780972878/reel-5_j1zgsp.mp4", poster: "https://res.cloudinary.com/dbuvkbafj/video/upload/so_2,q_auto,w_640,c_limit/v1780972878/reel-5_j1zgsp.jpg", label: "Reel 04" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/f_auto,q_auto,c_limit,w_640/v1780972884/reel-2_ngdshs.mp4", poster: "https://res.cloudinary.com/dbuvkbafj/video/upload/so_2,q_auto,w_640,c_limit/v1780972884/reel-2_ngdshs.jpg", label: "Reel 05" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972863/reel-1_cckvgg.mp4", poster: "", label: "Reel 01" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972871/reel-3_hhhb0d.mp4", poster: "", label: "Reel 02" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972875/reel-4_ivyub4.mp4", poster: "", label: "Reel 03" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972878/reel-5_j1zgsp.mp4", poster: "", label: "Reel 04" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972884/reel-2_ngdshs.mp4", poster: "", label: "Reel 05" },
     // ── New slots — paste your Cloudinary URL between the quotes on each `src` line ──
-    { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355101/Reel_1_yubpmf.mp4", poster: "", label: "Reel 06" },
+   { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355101/Reel_1_yubpmf.mp4", poster: "", label: "Reel 06" },
     { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355100/Reel_1_1_eplbmi.mp4", poster: "", label: "Reel 07" },
     { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355089/Reel_2_juqj94.mp4", poster: "", label: "Reel 08" },
     { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355064/Reel_2_1_u7z9ai.mp4", poster: "", label: "Reel 09" },
