@@ -52,9 +52,9 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "5", label: "markets" },
     ],
     winners: [
-      { src: "/work/workalessio-1.mp4", poster: "", label: "META AD WINNER ITERATION" },
-      { src: "/work/workalessio-2.mp4", poster: "", label: "META AD WINNER ITERATION" },
-      { src: "/work/workalessio-3.mp4", poster: "", label: "META AD WINNER ITERATION" },
+      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972488/workalessio-1_tfrjqm.mp4", poster: "", label: "META AD WINNER ITERATION" },
+      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972503/workalessio-2_oonlee.mp4", poster: "", label: "META AD WINNER ITERATION" },
+      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972488/workalessio-3_j0k0ag.mp4", poster: "", label: "META AD WINNER ITERATION" },
     ],
 
     marketBreakdown: [
@@ -106,9 +106,9 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "32.8%", label: "peak ROI" },
     ],
     winners: [
-    { src: "/work/workgrit-1.mp4", poster: "", label: "Winner LongForm" },
-    { src: "/work/workgrit-2.mp4", poster: "", label: "AI Winner ShortForm" },
-    { src: "/work/workgrit-3.mp4", poster: "", label: "AI Winner ShortForm" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972491/workgrit-2_fpbire.mp4", poster: "", label: "Winner LongForm" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972503/workgrit-3_zl5jvu.mp4", poster: "", label: "AI Winner ShortForm" },
+    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972511/workgrit-1_bgun5y.mp4", poster: "", label: "AI Winner ShortForm" },
     ],
 
     highlight: {
@@ -150,9 +150,9 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "3", label: "platforms" },
     ],
     winners: [
-      { src: "/work/worktempinked-1.mp4", poster: "", label: "AI PODCAST" },
-      { src: "/work/worktempinked-2.mp4", poster: "", label: "B-ROLL CREATIVE" },
-      { src: "/work/worktempinked-3.mp4", poster: "", label: "AI VIDEO GENERATION" },
+      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972493/worktempinked-1_ddklbt.mp4", poster: "", label: "WINNING CREATIVE" },
+      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972491/worktempinked-2_qkonqv.mp4", poster: "", label: "B-ROLL CREATIVE" },
+      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972495/worktempinked-3_jnjwu4.mp4", poster: "", label: "AI VIDEO GENERATION" },
     ],
     highlight: {
       title: "Efficient CPA at consumer-product scale",
