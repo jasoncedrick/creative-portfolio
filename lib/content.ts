@@ -23,11 +23,11 @@ export const hero = {
   availability:
     "Currently available for short-term projects and ongoing creative retainers.",
   reel: [
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972863/reel-1_cckvgg.mp4", poster: "", label: "Reel 01" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972871/reel-3_hhhb0d.mp4", poster: "", label: "Reel 02" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972875/reel-4_ivyub4.mp4", poster: "", label: "Reel 03" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972878/reel-5_j1zgsp.mp4", poster: "", label: "Reel 04" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972884/reel-2_ngdshs.mp4", poster: "", label: "Reel 05" },
+    { src: "https://jasonceddy.b-cdn.net/reel-3.mp4", poster: "", label: "Reel 01" },
+    { src: "https://jasonceddy.b-cdn.net/0721%20(1)(12).mp4", poster: "", label: "Reel 02" },
+    { src: "https://jasonceddy.b-cdn.net/IMG_1001.MP4", poster: "", label: "Reel 03" },
+    { src: "https://jasonceddy.b-cdn.net/IMG_1346.MP4", poster: "", label: "Reel 04" },
+    { src: "https://jasonceddy.b-cdn.net/reel-2.mp4", poster: "", label: "Reel 05" },
     // ── New slots — paste your Cloudinary URL between the quotes on each `src` line ──
    { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355101/Reel_1_yubpmf.mp4", poster: "", label: "Reel 06" },
     { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355100/Reel_1_1_eplbmi.mp4", poster: "", label: "Reel 07" },
