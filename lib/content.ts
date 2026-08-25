@@ -29,11 +29,11 @@ export const hero = {
     { src: "https://jasonceddy.b-cdn.net/IMG_1346.MP4", poster: "", label: "Reel 04" },
     { src: "https://jasonceddy.b-cdn.net/reel-2.mp4", poster: "", label: "Reel 05" },
     // ── New slots — paste your Cloudinary URL between the quotes on each `src` line ──
-   { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355101/Reel_1_yubpmf.mp4", poster: "", label: "Reel 06" },
-    { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355100/Reel_1_1_eplbmi.mp4", poster: "", label: "Reel 07" },
-    { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355089/Reel_2_juqj94.mp4", poster: "", label: "Reel 08" },
-    { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783355064/Reel_2_1_u7z9ai.mp4", poster: "", label: "Reel 09" },
-    { src: "https://res.cloudinary.com/rgp5u7uv/video/upload/v1783357322/0706_1_ecb2aj.mp4", poster: "", label: "Reel 10" },
+   { src: "https://jasonceddy.b-cdn.net/9_15.mp4", poster: "", label: "Reel 06" },
+    { src: "https://jasonceddy.b-cdn.net/AD%203%20SLOSS%20CITY.mp4", poster: "", label: "Reel 07" },
+    { src: "https://jasonceddy.b-cdn.net/Melvin.mp4", poster: "", label: "Reel 08" },
+    { src: "https://jasonceddy.b-cdn.net/Reel%201%20(Moon%20Restaurant).mp4", poster: "", label: "Reel 09" },
+    { src: "https://jasonceddy.b-cdn.net/UGC%2031%20-%20Lia%20Ad%2013%20-%20H1.mov", poster: "", label: "Reel 10" },
   ],
 };
 
