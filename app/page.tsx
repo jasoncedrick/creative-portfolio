@@ -1,3 +1,4 @@
+import { PortfolioGallery } from "@/components/PortfolioGallery";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { StatsBar } from "@/components/StatsBar";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <StatsBar />
+        <PortfolioGallery />
         <About />
         <Services />
         <CaseStudies />
