@@ -58,7 +58,7 @@ export const about = {
   photo: "/jason.jpg",
   paragraphs: [
     "I'm Jason Cedrick, 21, based in the Philippines. I produce short-form video content for two kinds of clients: eCommerce brands that need ad creative that actually converts, and founders building authority through personal branding content.",
-    "My ads have driven over €198K in revenue, €105K in profit, and 5,194 purchases across 5 European markets for a DTC supplement brand. I've produced 300+ ad creatives in a single year for a US-based ad agency in the insurance vertical. I also handle social media management, localization, and full creative production end to end.",
+    "My ads have driven over €198K in revenue, €105K in profit, and 5,194 purchases across 5 international markets for a DTC supplement brand. I've produced 300+ ad creatives in a single year for a US-based ad agency in the insurance vertical. I also handle social media management, localization, and full creative production end to end.",
     "I run lean. Full production from concept to delivery, no waiting on you for raw footage, scripts, or research. AI tools, stock platforms, and creative direction handle the sourcing. You hand me a brief, you get a finished ad ready to launch.",
     "Right now I'm a one-person creative team building toward an agency. The systems and bar I work at are already there.",
   ],
@@ -125,7 +125,7 @@ export const caseStudies: CaseStudy[] = [
     client: "Alessio Commerce Ltd",
     tag: "eCommerce · DTC · Performance Ads · 16 months",
     brief:
-      "Scale short-form ad creative output across 5 European markets without sacrificing performance. High-velocity testing, multiple product lines, localized variants.",
+      "Scale short-form ad creative output across 5 international markets without sacrificing performance. High-velocity testing, multiple product lines, localized variants.",
     did: "Built a high-volume creative pipeline. Hook-first frameworks, problem-solution structure, localized for each market, tested aggressively, doubled down on winners. Full production from sourcing to delivery, including localized voiceovers and language adaptation.",
     results: [
       { label: "winning ads", value: "52" },

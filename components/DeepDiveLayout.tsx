@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FadeIn } from "./FadeIn";
 import { AnimatedCounter } from "./AnimatedCounter";
-import { VideoSlot } from "./VideoSlot";
+import { CaseStudyVideo } from "./CaseStudyVideo";
 import { DeepDiveGallery } from "./DeepDiveGallery";
 import { Footer } from "./Footer";
 import { Nav } from "./Nav";
@@ -78,14 +78,14 @@ export function DeepDiveLayout({ dive }: { dive: DeepDive }) {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl">
               {dive.winners.map((w, i) => (
                 <FadeIn key={i} delay={i * 0.06}>
-                  <VideoSlot src={w.src} poster={w.poster} label={w.label} />
+                  <CaseStudyVideo src={w.src} poster={w.poster} label={w.label} />
                 </FadeIn>
               ))}
             </div>
           </div>
         </section>
 
-        <DeepDiveGallery images={dive.gallery} />
+        <DeepDiveGallery images={dive.gallery} heading="Client feedback" />
 
         <section className="section">
           <div className="container-page">
