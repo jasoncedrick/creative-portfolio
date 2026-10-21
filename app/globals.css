@@ -203,3 +203,43 @@ h1 { letter-spacing: -0.04em; font-weight: 700; }
   text-align: center;
   padding: 0 1rem;
 }
+
+/* Portfolio library: posters first, one full-size player on demand. */
+.portfolio-filter {
+  min-height: 44px;
+  padding: .6rem .95rem;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  color: var(--color-fg-muted);
+  font-size: 13px;
+  cursor: pointer;
+}
+.portfolio-filter:hover { color: var(--color-fg); border-color: var(--color-fg-faint); }
+.portfolio-filter.is-active { color: white; background: var(--color-red); border-color: var(--color-red); }
+.portfolio-cover {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #171719;
+  border: 1px solid var(--color-border-strong);
+  cursor: pointer;
+  text-align: left;
+}
+.portfolio-dialog {
+  margin: auto;
+  padding: 0;
+  width: min(960px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  border: 1px solid var(--color-border-strong);
+  border-radius: 16px;
+  background: var(--color-bg-elev);
+  color: var(--color-fg);
+  overflow-y: auto;
+}
+.portfolio-dialog::backdrop { background: rgb(0 0 0 / .88); backdrop-filter: blur(8px); }
+.portfolio-player-shell { width: 100%; }
+.portfolio-player-media { height: min(68dvh, 760px); background: #000; }
+.portfolio-player-media.is-landscape { height: auto; aspect-ratio: 16 / 9; max-height: 68dvh; }

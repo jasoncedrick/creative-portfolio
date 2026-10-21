@@ -5,6 +5,7 @@ import Link from "next/link";
 import { site } from "@/lib/content";
 
 const links = [
+  { href: "/#videos", label: "Videos" },
   { href: "/#work", label: "Work" },
   { href: "/#services", label: "Services" },
   { href: "/#process", label: "Process" },

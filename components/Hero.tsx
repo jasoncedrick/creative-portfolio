@@ -40,6 +40,7 @@ export function Hero() {
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
               Email Me
             </a>
+            <a href="#videos" className="btn-secondary">Explore the video library ↗</a>
             <a href={waLink} target="_blank" rel="noreferrer" className="btn-secondary">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20.5 3.5A11 11 0 003 19l-1 4 4-1A11 11 0 1020.5 3.5z" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
               Message on WhatsApp
