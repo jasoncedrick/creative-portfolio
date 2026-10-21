@@ -7,7 +7,7 @@ import "./globals.css";
 // Single source of truth for the site URL. Set NEXT_PUBLIC_SITE_URL in
 // .env.local (and in Vercel) once you know your final domain. Until then it
 // falls back to the value below — change this one line if your domain differs.
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://creative-portfolio-ecru.vercel.app";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://jasoncedrickportfolio.com";
 
 const display = Manrope({
   subsets: ["latin"],

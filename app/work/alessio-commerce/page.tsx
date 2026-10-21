@@ -7,11 +7,13 @@ const dive = deepDives["alessio-commerce"];
 export const metadata: Metadata = {
   title: `${dive.client} — Case Study`,
   description:
-    "DTC supplement brand. 5 European markets. 52 winning ads, €198K revenue, €105K profit, 5,194 purchases in 8 months.",
+    "DTC supplement brand. 5 international markets. 52 winning ads, €198K revenue, €105K profit, 5,194 purchases in 8 months.",
+  alternates: { canonical: `/work/${dive.slug}` },
   openGraph: {
+    url: `/work/${dive.slug}`,
     title: `${dive.client} — Case Study`,
     description:
-      "DTC supplement brand. 5 European markets. 52 winning ads, €198K revenue, €105K profit, 5,194 purchases.",
+      "DTC supplement brand. 5 international markets. 52 winning ads, €198K revenue, €105K profit, 5,194 purchases.",
   },
 };
 

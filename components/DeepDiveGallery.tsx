@@ -15,6 +15,7 @@ function GalleryLightbox({
 }) {
   const [index, setIndex] = useState(startIndex);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLDialogElement>(null);
   const touchX = useRef<number | null>(null);
 
   const prev = useCallback(() => setIndex((i) => (i - 1 + images.length) % images.length), [images.length]);
@@ -22,9 +23,10 @@ function GalleryLightbox({
 
   useEffect(() => {
     const previouslyFocused = document.activeElement as HTMLElement | null;
+    const dialog = dialogRef.current;
+    dialog?.showModal();
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-      else if (e.key === "ArrowLeft") prev();
+      if (e.key === "ArrowLeft") prev();
       else if (e.key === "ArrowRight") next();
     };
     document.addEventListener("keydown", onKey);
@@ -33,6 +35,7 @@ function GalleryLightbox({
     closeRef.current?.focus();
     return () => {
       document.removeEventListener("keydown", onKey);
+      dialog?.close();
       document.body.style.overflow = prevOverflow;
       previouslyFocused?.focus?.();
     };
@@ -48,12 +51,13 @@ function GalleryLightbox({
   };
 
   return (
-    <div
-      role="dialog"
+    <dialog
+      ref={dialogRef}
+      onCancel={(event) => { event.preventDefault(); onClose(); }}
       aria-modal="true"
       aria-label="Proof image"
-      onClick={onClose}
-      className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8 bg-black/75 backdrop-blur-md"
+      onClick={(event) => { if (event.target === event.currentTarget) onClose(); }}
+      className="fixed inset-0 m-0 w-screen h-dvh max-w-none max-h-none border-0 flex items-center justify-center px-4 py-16 md:px-8 bg-black/75 text-white backdrop:bg-black/50"
     >
       <div onClick={(e) => e.stopPropagation()} className="relative w-full max-w-5xl flex flex-col items-center">
         <button
@@ -72,7 +76,7 @@ function GalleryLightbox({
             key={index}
             src={images[index]}
             alt={`Proof ${index + 1} of ${images.length}`}
-            className="max-h-[80vh] max-w-full w-auto object-contain rounded-lg border border-[color:var(--color-border-strong)] bg-black"
+            className="max-h-[65dvh] max-w-full w-auto object-contain rounded-lg border border-[color:var(--color-border-strong)] bg-black"
           />
         </div>
 
@@ -90,7 +94,7 @@ function GalleryLightbox({
         </div>
         <p className="mt-2 text-center text-[11px] font-mono text-white/60">{index + 1} / {images.length}</p>
       </div>
-    </div>
+    </dialog>
   );
 }
 
@@ -104,7 +108,7 @@ export function DeepDiveGallery({ images, heading = "The receipts" }: { images?:
   return (
     <section className="section border-b border-[color:var(--color-border)]">
       <div className="container-page">
-        <FadeIn><p className="eyebrow text-[color:var(--color-red)]">PROOF</p></FadeIn>
+        <FadeIn><p className="eyebrow text-[color:var(--color-red)]">CLIENT FEEDBACK</p></FadeIn>
         <FadeIn delay={0.05}>
           <h2 className="mt-3 text-[28px] md:text-[40px] tracking-tight font-semibold">{heading}</h2>
         </FadeIn>
@@ -118,7 +122,7 @@ export function DeepDiveGallery({ images, heading = "The receipts" }: { images?:
                 className="block w-full aspect-[4/3] overflow-hidden rounded-lg border border-[color:var(--color-border)] hover:border-[color:var(--color-red)] bg-black transition-colors group cursor-pointer"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={src} alt={`Proof ${i + 1}`} loading="lazy" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <img src={src} alt={`Proof ${i + 1}`} loading="lazy" className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105" />
               </button>
             </FadeIn>
           ))}

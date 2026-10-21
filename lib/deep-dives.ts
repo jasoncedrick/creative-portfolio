@@ -15,19 +15,14 @@ export type DeepDive = {
   gallery?: string[];
 };
 
-const emptyWinners = [
-  { src: "", poster: "", label: "Winning creative 01" },
-  { src: "", poster: "", label: "Winning creative 02" },
-  { src: "", poster: "", label: "Winning creative 03" },
-];
-
 export const deepDives: Record<string, DeepDive> = {
   "alessio-commerce": {
     slug: "alessio-commerce",
+    gallery: ["/testimonials/alessio-1.png", "/testimonials/alessio-2.png", "/testimonials/alessio-3.png", "/testimonials/alessio-4.png"],
     client: "Alessio Commerce Ltd",
-    tag: "DTC supplement brand · 5 European markets · 8 months",
+    tag: "DTC supplement brand · 5 international markets · 8 months",
     intro:
-      "Alessio Commerce sells supplement and wellness products direct to consumers across Europe. The brief was simple to say and difficult to deliver: scale short-form ad creative output across five markets, in five different cultural contexts, without dropping performance.",
+      "Alessio Commerce sells supplement and wellness products direct to consumers across international markets. The brief was simple to say and difficult to deliver: scale short-form ad creative output across five markets, in five different cultural contexts, without dropping performance.",
     sections: [
       { heading: "The problem", body: [
         "Performance marketing in DTC supplements lives or dies on creative volume. The Meta and TikTok algorithms reward fast iteration, and creative fatigue is real — every winning ad has a half-life of weeks, not months. A single market needs a steady pipeline of fresh angles. Five markets needs five pipelines, each tuned to local cultural references, currencies, and language nuance.",
@@ -52,9 +47,9 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "5", label: "markets" },
     ],
     winners: [
-      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972488/workalessio-1_tfrjqm.mp4", poster: "", label: "META AD WINNER ITERATION" },
-      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972503/workalessio-2_oonlee.mp4", poster: "", label: "META AD WINNER ITERATION" },
-      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972488/workalessio-3_j0k0ag.mp4", poster: "", label: "META AD WINNER ITERATION" },
+      { src: "/work/workalessio-1.mp4", poster: "/portfolio/workalessio-1.jpg", label: "META AD WINNER ITERATION" },
+      { src: "/work/workalessio-2.mp4", poster: "/portfolio/workalessio-2.jpg", label: "META AD WINNER ITERATION" },
+      { src: "/work/workalessio-3.mp4", poster: "/portfolio/workalessio-3.jpg", label: "META AD WINNER ITERATION" },
     ],
 
     marketBreakdown: [
@@ -79,6 +74,7 @@ export const deepDives: Record<string, DeepDive> = {
   },
   "grit-media": {
     slug: "grit-media",
+    gallery: ["/testimonials/grit-1.png", "/testimonials/grit-2.png", "/testimonials/grit-3.png", "/testimonials/grit-4.png"],
     client: "Grit Media Collective LLC",
     tag: "US ad agency · Insurance vertical · 12 months",
     intro:
@@ -106,9 +102,9 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "32.8%", label: "peak ROI" },
     ],
     winners: [
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972491/workgrit-2_fpbire.mp4", poster: "", label: "Winner LongForm" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972503/workgrit-3_zl5jvu.mp4", poster: "", label: "AI Winner ShortForm" },
-    { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972511/workgrit-1_bgun5y.mp4", poster: "", label: "AI Winner ShortForm" },
+    { src: "/work/workgrit-2.mp4", poster: "/portfolio/workgrit-2.jpg", label: "Winner LongForm" },
+    { src: "/work/workgrit-3.mp4", poster: "/portfolio/workgrit-3.jpg", label: "AI Winner ShortForm" },
+    { src: "/work/workgrit-1.mp4", poster: "/portfolio/workgrit-1.jpg", label: "AI Winner ShortForm" },
     ],
 
     highlight: {
@@ -125,6 +121,7 @@ export const deepDives: Record<string, DeepDive> = {
   },
   "temporary-inked": {
     slug: "temporary-inked",
+    gallery: ["/testimonials/tempinked-1.png", "/testimonials/tempinked-2.png", "/testimonials/tempinked-3.png", "/testimonials/tempinked-4.png"],
     client: "TemporaryInked",
     tag: "DTC consumer products · Realistic temporary tattoos · Short-form ads",
     intro:
@@ -150,9 +147,9 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "3", label: "platforms" },
     ],
     winners: [
-      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972493/worktempinked-1_ddklbt.mp4", poster: "", label: "WINNING CREATIVE" },
-      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972491/worktempinked-2_qkonqv.mp4", poster: "", label: "B-ROLL CREATIVE" },
-      { src: "https://res.cloudinary.com/dbuvkbafj/video/upload/v1780972495/worktempinked-3_jnjwu4.mp4", poster: "", label: "AI VIDEO GENERATION" },
+      { src: "/work/worktempinked-1.MP4", poster: "/portfolio/worktempinked-1.jpg", label: "WINNING CREATIVE" },
+      { src: "/work/worktempinked-2.mp4", poster: "/portfolio/worktempinked-2.jpg", label: "B-ROLL CREATIVE" },
+      { src: "/work/worktempinked-3.mp4", poster: "/portfolio/worktempinked-3.jpg", label: "AI VIDEO GENERATION" },
     ],
     highlight: {
       title: "Efficient CPA at consumer-product scale",
