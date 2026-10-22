@@ -121,7 +121,7 @@ export const deepDives: Record<string, DeepDive> = {
   },
   "temporary-inked": {
     slug: "temporary-inked",
-    gallery: ["/testimonials/tempinked-1.png", "/testimonials/tempinked-2.png", "/testimonials/tempinked-3.png", "/testimonials/tempinked-4.png"],
+    gallery: ["/work/tempinked-dashboard-30-days.png", "/testimonials/tempinked-1.png", "/testimonials/tempinked-2.png", "/testimonials/tempinked-3.png", "/testimonials/tempinked-4.png"],
     client: "TemporaryInked",
     tag: "DTC consumer products · Realistic temporary tattoos · Short-form ads",
     intro:
@@ -136,12 +136,12 @@ export const deepDives: Record<string, DeepDive> = {
         "Concepts were built to test. Multiple angles per product, format-ready for Meta, TikTok, and YouTube, so the media buyer could push spend behind whatever the data favored.",
       ]},
       { heading: "The results", body: [
-        "The brand's revenue dashboard showed €62,481 in total store revenue during active ad campaigns. Multiple ads drove purchases in the $20-30 CPA range — efficient for a consumer-products price point — sustaining engagement and sales across paid social.",
+        "The brand's store dashboard showed £61,803 in total store revenue from 1,627 orders over 30 days (July to August 2025), while the ads were running. Multiple ads drove purchases in the $20-30 CPA range — efficient for a consumer-products price point — sustaining engagement and sales across paid social.",
         "The Facebook page grew to 13K followers alongside the paid activity, building an owned audience on top of the performance results.",
       ]},
     ],
     topStats: [
-      { value: "€62,481", label: "store revenue" },
+      { value: "£61,803", label: "30-day store revenue" },
       { value: "$20-30", label: "CPA range" },
       { value: "13K", label: "FB followers" },
       { value: "3", label: "platforms" },
@@ -155,7 +155,7 @@ export const deepDives: Record<string, DeepDive> = {
       title: "Efficient CPA at consumer-product scale",
       body: "Driving purchases at a $20-30 CPA on an impulse-buy product means the creative is doing the heavy lifting — stopping the scroll and closing the sale before the viewer thinks twice.",
       stats: [
-        { value: "€62,481", label: "store revenue" },
+        { value: "£61,803", label: "30-day store revenue" },
         { value: "$20-30", label: "CPA" },
         { value: "3", label: "platforms" },
       ],

@@ -170,13 +170,13 @@ export const caseStudies: CaseStudy[] = [
       "Short-form ad content for a realistic temporary tattoo brand across TikTok, Instagram Reels, and YouTube Shorts. Fast-paced, scroll-stopping, conversion-focused.",
     did: "Trend-aware, fast-paced edits emphasizing the commitment-free appeal of the product. Hook-led structure, aesthetic storytelling, on-brand pacing. Multiple winning concepts driving purchases at an efficient CPA.",
     results: [
-      { label: "store revenue", value: "€62,481" },
+      { label: "30-day store revenue", value: "£61,803" },
       { label: "CPA range", value: "$20-30" },
       { label: "FB followers", value: "13K" },
       { label: "platforms", value: "3" },
     ],
     highlight:
-      "Brand revenue dashboard showed €62,481 in total store revenue during active ad campaigns, with multiple ads driving purchases in the $20-30 CPA range.",
+      "Store dashboard showed £61,803 in total store revenue from 1,627 orders over 30 days during active ad campaigns, with multiple ads driving purchases in the $20-30 CPA range.",
     imageHint: "Shopify revenue dashboard + winning ad stills (from PDF p.3)",
     featured: true,
     hasDeepDive: true,

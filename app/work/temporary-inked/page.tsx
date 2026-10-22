@@ -7,13 +7,13 @@ const dive = deepDives["temporary-inked"];
 export const metadata: Metadata = {
   title: `${dive.client} — Case Study`,
   description:
-    "DTC temporary tattoo brand. €62,481 store revenue during active campaigns, $20-30 CPA, 13K Facebook followers. Ads for TikTok, Reels, and Shorts.",
+    "DTC temporary tattoo brand. £61,803 store revenue in 30 days during active campaigns, $20-30 CPA, 13K Facebook followers. Ads for TikTok, Reels, and Shorts.",
   alternates: { canonical: `/work/${dive.slug}` },
   openGraph: {
     url: `/work/${dive.slug}`,
     title: `${dive.client} — Case Study`,
     description:
-      "DTC temporary tattoo brand. €62,481 store revenue, $20-30 CPA, short-form ads across 3 platforms.",
+      "DTC temporary tattoo brand. £61,803 store revenue in 30 days, $20-30 CPA, short-form ads across 3 platforms.",
   },
 };
 
