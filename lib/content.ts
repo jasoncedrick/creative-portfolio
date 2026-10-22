@@ -47,7 +47,7 @@ export const stats = {
   ],
   secondary: [
     { value: "300+", label: "ads produced in 12 months" },
-    { value: "1,715", label: "conversions driven" },
+    { value: "2,715", label: "conversions driven" },
     { value: "32.8%", label: "peak ROI single ad" },
     { value: "5", label: "languages localized" },
   ],
