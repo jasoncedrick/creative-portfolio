@@ -12,7 +12,7 @@ export const site = {
   timezone: "GMT+8",
   available: true,
   metaDescription:
-    "Short-form video ad editor and creative producer. €190K client profit after ad spend, €325K revenue, 7,285 purchases, 300+ ads produced across 5 international markets. Based in the Philippines, working globally.",
+    "Short-form video ad editor for DTC brands: UGC, TikTok and Meta ads. 101 winning ads, €325K revenue, 300+ ads across 5 markets. Based in the Philippines.",
 };
 
 export const hero = {
