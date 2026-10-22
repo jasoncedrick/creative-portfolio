@@ -34,16 +34,16 @@ export const deepDives: Record<string, DeepDive> = {
         "Production was full-stack. Stock platforms, AI-generated B-roll, voiceover via tools and human VAs where it mattered, edited and delivered ready-to-launch. No raw footage required from the client.",
       ]},
       { heading: "The results", body: [
-        "Over 16 months, the pipeline shipped 52 winning ads (creatives that hit profitability targets in at least one market). Total attributable revenue was €198,222. Profit, €105,174. Purchases, 5,194. Average ROAS of 2.13x across all 52 winners.",
-        "The standout was EnduroFlex in Germany — a single creative that drove €30,228 in revenue and €14,698 in profit from 814 purchases in 60 days at 1.95x ROAS.",
+        "Over 16 months, the pipeline shipped 101 winning ads (creatives that hit profitability targets in at least one market). Total attributable revenue was €325,376. Profit after ad spend, €190,567. Purchases, 7,285. Average ROAS of 2.41x across all 101 winners.",
+        "The standout was EnduroFlex in Germany — a single creative that drove €30,228 in revenue and €14,698 in profit after ad spend from 814 purchases in 60 days at 1.95x ROAS.",
       ]},
     ],
     topStats: [
-      { value: "€198,222", label: "revenue driven" },
-      { value: "€105,174", label: "profit generated" },
-      { value: "5,194", label: "purchases" },
-      { value: "52", label: "winning ads" },
-      { value: "2.13x", label: "avg ROAS" },
+      { value: "€325,376", label: "revenue driven" },
+      { value: "€190,567", label: "profit after ad spend" },
+      { value: "7,285", label: "purchases" },
+      { value: "101", label: "winning ads" },
+      { value: "2.41x", label: "avg ROAS" },
       { value: "5", label: "markets" },
     ],
     winners: [
@@ -61,10 +61,10 @@ export const deepDives: Record<string, DeepDive> = {
     ],
     highlight: {
       title: "EnduroFlex — Germany",
-      body: "Single creative. 60 days. €30,228 revenue, €14,698 profit, 814 purchases, 1.95x ROAS. One ad, with localized variants, doing the work of a full campaign.",
+      body: "Single creative. 60 days. €30,228 revenue, €14,698 profit after ad spend, 814 purchases, 1.95x ROAS. One ad, with localized variants, doing the work of a full campaign.",
       stats: [
         { value: "€30,228", label: "revenue" },
-        { value: "€14,698", label: "profit" },
+        { value: "€14,698", label: "profit after ad spend" },
         { value: "814", label: "purchases" },
         { value: "1.95x", label: "ROAS" },
       ],

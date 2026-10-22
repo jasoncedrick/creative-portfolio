@@ -12,14 +12,14 @@ export const site = {
   timezone: "GMT+8",
   available: true,
   metaDescription:
-    "Short-form video ad editor and creative producer. €105K client profit, €198K revenue, 5,194 purchases, 300+ ads produced across 5 international markets. Based in the Philippines, working globally.",
+    "Short-form video ad editor and creative producer. €190K client profit after ad spend, €325K revenue, 7,285 purchases, 300+ ads produced across 5 international markets. Based in the Philippines, working globally.",
 };
 
 export const hero = {
   headline:
     "Short-form video ads that scale DTC brands.",
   subhead:
-    "€198K revenue and €105K profit from 52 winning ads across 5 markets. Hooks, UGC-style cuts, and localized variants, built for testing on Meta and TikTok.",
+    "€325K revenue and €190K profit after ad spend from 101 winning ads across 5 markets. Hooks, UGC-style cuts, and localized variants, built for testing on Meta and TikTok.",
   availability:
     "Currently available for short-term projects and ongoing creative retainers.",
   reel: [
@@ -39,10 +39,10 @@ export const hero = {
 
 export const stats = {
   primary: [
-    { value: "€105K", label: "profit generated" },
-    { value: "€198K", label: "revenue driven" },
-    { value: "52", label: "winning ads" },
-    { value: "5,194", label: "purchases driven" },
+    { value: "€190K", label: "profit after ad spend" },
+    { value: "€325K", label: "revenue driven" },
+    { value: "101", label: "winning ads" },
+    { value: "7,285", label: "purchases driven" },
     { value: "5", label: "markets" },
   ],
   secondary: [
@@ -58,7 +58,7 @@ export const about = {
   photo: "/jason.jpg",
   paragraphs: [
     "I'm Jason Cedrick, 21, based in the Philippines. I produce short-form video content for two kinds of clients: eCommerce brands that need ad creative that actually converts, and founders building authority through personal branding content.",
-    "My ads have driven over €198K in revenue, €105K in profit, and 5,194 purchases across 5 international markets for a DTC supplement brand. I've produced 300+ ad creatives in a single year for a US-based ad agency in the insurance vertical. I also handle social media management, localization, and full creative production end to end.",
+    "My ads have driven over €325K in revenue, €190K in profit after ad spend, and 7,285 purchases across 5 international markets for a DTC supplement brand. I've produced 300+ ad creatives in a single year for a US-based ad agency in the insurance vertical. I also handle social media management, localization, and full creative production end to end.",
     "I run lean. Full production from concept to delivery, no waiting on you for raw footage, scripts, or research. AI tools, stock platforms, and creative direction handle the sourcing. You hand me a brief, you get a finished ad ready to launch.",
     "Right now I'm a one-person creative team building toward an agency. The systems and bar I work at are already there.",
   ],
@@ -128,15 +128,15 @@ export const caseStudies: CaseStudy[] = [
       "Scale short-form ad creative output across 5 international markets without sacrificing performance. High-velocity testing, multiple product lines, localized variants.",
     did: "Built a high-volume creative pipeline. Hook-first frameworks, problem-solution structure, localized for each market, tested aggressively, doubled down on winners. Full production from sourcing to delivery, including localized voiceovers and language adaptation.",
     results: [
-      { label: "winning ads", value: "52" },
-      { label: "revenue", value: "€198,222" },
-      { label: "profit", value: "€105,174" },
-      { label: "purchases", value: "5,194" },
-      { label: "avg ROAS", value: "2.13x" },
+      { label: "winning ads", value: "101" },
+      { label: "revenue", value: "€325,376" },
+      { label: "profit after ad spend", value: "€190,567" },
+      { label: "purchases", value: "7,285" },
+      { label: "avg ROAS", value: "2.41x" },
       { label: "markets", value: "5" },
     ],
     highlight:
-      "EnduroFlex (Germany) — single creative generated €30,228 revenue and €14,698 profit from 814 purchases in 60 days at 1.95x ROAS.",
+      "EnduroFlex (Germany) — single creative generated €30,228 revenue and €14,698 profit after ad spend from 814 purchases in 60 days at 1.95x ROAS.",
     imageHint: "EnduroFlex winning ad still or Meta dashboard screenshot",
     featured: true,
     hasDeepDive: true,

@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: `${site.name} — Short-Form Video Creative That Drives Revenue`,
     description:
-      "I produce short-form video for DTC brands and founders. €105K in attributable client profit. 300+ ads across 5 markets. Receipts on every line.",
+      "Short-form video ads for DTC brands. €325K revenue and €190K profit after ad spend from 101 winning ads. 300+ ads across 5 markets.",
     siteName: site.name,
     images: [{ url: "/og.png", width: 1200, height: 630, alt: `${site.name}` }],
   },
