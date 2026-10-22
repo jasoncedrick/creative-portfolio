@@ -20,7 +20,7 @@ export const deepDives: Record<string, DeepDive> = {
     slug: "alessio-commerce",
     gallery: ["/testimonials/alessio-1.png", "/testimonials/alessio-2.png", "/testimonials/alessio-3.png", "/testimonials/alessio-4.png"],
     client: "Alessio Commerce Ltd",
-    tag: "DTC supplement brand · 5 international markets · 8 months",
+    tag: "DTC supplement brand · 5 international markets · 16 months",
     intro:
       "Alessio Commerce sells supplement and wellness products direct to consumers across international markets. The brief was simple to say and difficult to deliver: scale short-form ad creative output across five markets, in five different cultural contexts, without dropping performance.",
     sections: [
@@ -34,16 +34,16 @@ export const deepDives: Record<string, DeepDive> = {
         "Production was full-stack. Stock platforms, AI-generated B-roll, voiceover via tools and human VAs where it mattered, edited and delivered ready-to-launch. No raw footage required from the client.",
       ]},
       { heading: "The results", body: [
-        "Over 8 months, the pipeline shipped 52 winning ads (creatives that hit profitability targets in at least one market). Total attributable revenue was €198,222. Profit, €105,174. Purchases, 5,194. Average ROAS of 2.13x across all 52 winners.",
-        "The standout was EnduroFlex in Germany — a single creative that drove €30,228 in revenue and €14,698 in profit from 814 purchases in 60 days at 1.95x ROAS.",
+        "Over 16 months, the pipeline shipped 101 winning ads (creatives that hit profitability targets in at least one market). Total attributable revenue was €325,376. Profit after ad spend, €190,567. Purchases, 7,285. Average ROAS of 2.41x across all 101 winners.",
+        "The standout was EnduroFlex in Germany — a single creative that drove €30,228 in revenue and €14,698 in profit after ad spend from 814 purchases in 60 days at 1.95x ROAS.",
       ]},
     ],
     topStats: [
-      { value: "€198,222", label: "revenue driven" },
-      { value: "€105,174", label: "profit generated" },
-      { value: "5,194", label: "purchases" },
-      { value: "52", label: "winning ads" },
-      { value: "2.13x", label: "avg ROAS" },
+      { value: "€325,376", label: "revenue driven" },
+      { value: "€190,567", label: "profit after ad spend" },
+      { value: "7,285", label: "purchases" },
+      { value: "101", label: "winning ads" },
+      { value: "2.41x", label: "avg ROAS" },
       { value: "5", label: "markets" },
     ],
     winners: [
@@ -61,10 +61,10 @@ export const deepDives: Record<string, DeepDive> = {
     ],
     highlight: {
       title: "EnduroFlex — Germany",
-      body: "Single creative. 60 days. €30,228 revenue, €14,698 profit, 814 purchases, 1.95x ROAS. One ad, with localized variants, doing the work of a full campaign.",
+      body: "Single creative. 60 days. €30,228 revenue, €14,698 profit after ad spend, 814 purchases, 1.95x ROAS. One ad, with localized variants, doing the work of a full campaign.",
       stats: [
         { value: "€30,228", label: "revenue" },
-        { value: "€14,698", label: "profit" },
+        { value: "€14,698", label: "profit after ad spend" },
         { value: "814", label: "purchases" },
         { value: "1.95x", label: "ROAS" },
       ],
@@ -74,7 +74,7 @@ export const deepDives: Record<string, DeepDive> = {
   },
   "grit-media": {
     slug: "grit-media",
-    gallery: ["/testimonials/grit-1.png", "/testimonials/grit-2.png", "/testimonials/grit-3.png", "/testimonials/grit-4.png"],
+    gallery: ["/work/grit-dashboard-1-month.png", "/testimonials/grit-1.png", "/testimonials/grit-2.png", "/testimonials/grit-3.png", "/testimonials/grit-4.png"],
     client: "Grit Media Collective LLC",
     tag: "US ad agency · Insurance vertical · 12 months",
     intro:
@@ -89,7 +89,7 @@ export const deepDives: Record<string, DeepDive> = {
         "The trick was treating each ad as part of a system, not a one-off. Hook libraries, B-roll libraries, voiceover libraries — all organized so a new concept could be assembled from known-working parts in hours, not days.",
       ]},
       { heading: "The results", body: [
-        "Over 12 months, 300+ short-form ads shipped. Sampling the verified winners gave 70 standout creatives accounting for $57,714 in attributed revenue and $15,005 in profit on the agency's tracked spend. 1,715 conversions across the sampled set. Peak ROI on a single creative was 32.8%.",
+        "Over 12 months, 300+ short-form ads shipped. Sampling the verified winners gave 70 standout creatives accounting for $57,714 in attributed revenue and $15,005 in profit after ad spend. 2,715 conversions across the sampled set. Peak ROI on a single creative was 32.8%. For a single month on the account, the dashboard showed $31,525 in revenue on $29,854 in spend, with 1,227 conversions at a $24.33 CPA.",
         "The headline isn't a single hero number. It's the consistency. 25 to 35 ads per month, every month, for 12 months, while maintaining quality high enough to produce verified winners across multiple concepts.",
       ]},
     ],
@@ -97,8 +97,8 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "300+", label: "ads in 12 months" },
       { value: "70", label: "verified winners" },
       { value: "$57,714", label: "attributed revenue" },
-      { value: "$15,005", label: "profit" },
-      { value: "1,715", label: "conversions" },
+      { value: "$15,005", label: "profit after ad spend" },
+      { value: "2,715", label: "conversions" },
       { value: "32.8%", label: "peak ROI" },
     ],
     winners: [
@@ -121,7 +121,7 @@ export const deepDives: Record<string, DeepDive> = {
   },
   "temporary-inked": {
     slug: "temporary-inked",
-    gallery: ["/testimonials/tempinked-1.png", "/testimonials/tempinked-2.png", "/testimonials/tempinked-3.png", "/testimonials/tempinked-4.png"],
+    gallery: ["/work/tempinked-dashboard-30-days.png", "/testimonials/tempinked-1.png", "/testimonials/tempinked-2.png", "/testimonials/tempinked-3.png", "/testimonials/tempinked-4.png"],
     client: "TemporaryInked",
     tag: "DTC consumer products · Realistic temporary tattoos · Short-form ads",
     intro:
@@ -136,12 +136,12 @@ export const deepDives: Record<string, DeepDive> = {
         "Concepts were built to test. Multiple angles per product, format-ready for Meta, TikTok, and YouTube, so the media buyer could push spend behind whatever the data favored.",
       ]},
       { heading: "The results", body: [
-        "The brand's revenue dashboard showed €62,481 in total store revenue during active ad campaigns. Multiple ads drove purchases in the $20-30 CPA range — efficient for a consumer-products price point — sustaining engagement and sales across paid social.",
+        "The brand's store dashboard showed £61,803 in total store revenue from 1,627 orders over 30 days (July to August 2025), while the ads were running. Multiple ads drove purchases in the $20-30 CPA range — efficient for a consumer-products price point — sustaining engagement and sales across paid social.",
         "The Facebook page grew to 13K followers alongside the paid activity, building an owned audience on top of the performance results.",
       ]},
     ],
     topStats: [
-      { value: "€62,481", label: "store revenue" },
+      { value: "£61,803", label: "30-day store revenue" },
       { value: "$20-30", label: "CPA range" },
       { value: "13K", label: "FB followers" },
       { value: "3", label: "platforms" },
@@ -155,7 +155,7 @@ export const deepDives: Record<string, DeepDive> = {
       title: "Efficient CPA at consumer-product scale",
       body: "Driving purchases at a $20-30 CPA on an impulse-buy product means the creative is doing the heavy lifting — stopping the scroll and closing the sale before the viewer thinks twice.",
       stats: [
-        { value: "€62,481", label: "store revenue" },
+        { value: "£61,803", label: "30-day store revenue" },
         { value: "$20-30", label: "CPA" },
         { value: "3", label: "platforms" },
       ],

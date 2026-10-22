@@ -2,7 +2,7 @@
 
 export const site = {
   name: "Jason Cedrick",
-  role: "Short-Form Video Creative for DTC Brands & Founders",
+  role: "Short-Form Video Ads for DTC Brands",
   email: "jcp.professional.work@gmail.com",
   whatsapp: "+639955098146",
   whatsappDisplay: "+63 995 509 8146",
@@ -12,14 +12,14 @@ export const site = {
   timezone: "GMT+8",
   available: true,
   metaDescription:
-    "Short-form video ad editor and creative producer. €105K client profit, €198K revenue, 5,194 purchases, 300+ ads produced across 5 international markets. Based in the Philippines, working globally.",
+    "Short-form video ad editor and creative producer. €190K client profit after ad spend, €325K revenue, 7,285 purchases, 300+ ads produced across 5 international markets. Based in the Philippines, working globally.",
 };
 
 export const hero = {
   headline:
-    "Short-form video creative that drives revenue for DTC brands and grows audiences for founders.",
+    "Short-form video ads that scale DTC brands.",
   subhead:
-    "€105K in attributable client profit. 300+ ads produced in 12 months. 5 international markets. Receipts on every line.",
+    "€325K revenue and €190K profit after ad spend from 101 winning ads across 5 markets. Hooks, UGC-style cuts, and localized variants, built for testing on Meta and TikTok.",
   availability:
     "Currently available for short-term projects and ongoing creative retainers.",
   reel: [
@@ -39,15 +39,15 @@ export const hero = {
 
 export const stats = {
   primary: [
-    { value: "€105K", label: "profit generated" },
-    { value: "€198K", label: "revenue driven" },
-    { value: "52", label: "winning ads" },
-    { value: "5,194", label: "purchases driven" },
+    { value: "€190K", label: "profit after ad spend" },
+    { value: "€325K", label: "revenue driven" },
+    { value: "101", label: "winning ads" },
+    { value: "7,285", label: "purchases driven" },
     { value: "5", label: "markets" },
   ],
   secondary: [
     { value: "300+", label: "ads produced in 12 months" },
-    { value: "1,715", label: "conversions driven" },
+    { value: "2,715", label: "conversions driven" },
     { value: "32.8%", label: "peak ROI single ad" },
     { value: "5", label: "languages localized" },
   ],
@@ -58,7 +58,7 @@ export const about = {
   photo: "/jason.jpg",
   paragraphs: [
     "I'm Jason Cedrick, 21, based in the Philippines. I produce short-form video content for two kinds of clients: eCommerce brands that need ad creative that actually converts, and founders building authority through personal branding content.",
-    "My ads have driven over €198K in revenue, €105K in profit, and 5,194 purchases across 5 international markets for a DTC supplement brand. I've produced 300+ ad creatives in a single year for a US-based ad agency in the insurance vertical. I also handle social media management, localization, and full creative production end to end.",
+    "My ads have driven over €325K in revenue, €190K in profit after ad spend, and 7,285 purchases across 5 international markets for a DTC supplement brand. I've produced 300+ ad creatives in a single year for a US-based ad agency in the insurance vertical. I also handle social media management, localization, and full creative production end to end.",
     "I run lean. Full production from concept to delivery, no waiting on you for raw footage, scripts, or research. AI tools, stock platforms, and creative direction handle the sourcing. You hand me a brief, you get a finished ad ready to launch.",
     "Right now I'm a one-person creative team building toward an agency. The systems and bar I work at are already there.",
   ],
@@ -128,15 +128,15 @@ export const caseStudies: CaseStudy[] = [
       "Scale short-form ad creative output across 5 international markets without sacrificing performance. High-velocity testing, multiple product lines, localized variants.",
     did: "Built a high-volume creative pipeline. Hook-first frameworks, problem-solution structure, localized for each market, tested aggressively, doubled down on winners. Full production from sourcing to delivery, including localized voiceovers and language adaptation.",
     results: [
-      { label: "winning ads", value: "52" },
-      { label: "revenue", value: "€198,222" },
-      { label: "profit", value: "€105,174" },
-      { label: "purchases", value: "5,194" },
-      { label: "avg ROAS", value: "2.13x" },
+      { label: "winning ads", value: "101" },
+      { label: "revenue", value: "€325,376" },
+      { label: "profit after ad spend", value: "€190,567" },
+      { label: "purchases", value: "7,285" },
+      { label: "avg ROAS", value: "2.41x" },
       { label: "markets", value: "5" },
     ],
     highlight:
-      "EnduroFlex (Germany) — single creative generated €30,228 revenue and €14,698 profit from 814 purchases in 60 days at 1.95x ROAS.",
+      "EnduroFlex (Germany) — single creative generated €30,228 revenue and €14,698 profit after ad spend from 814 purchases in 60 days at 1.95x ROAS.",
     imageHint: "EnduroFlex winning ad still or Meta dashboard screenshot",
     featured: true,
     hasDeepDive: true,
@@ -152,7 +152,7 @@ export const caseStudies: CaseStudy[] = [
       { label: "ads produced", value: "300+" },
       { label: "verified winners", value: "70" },
       { label: "attributed revenue", value: "$57,714" },
-      { label: "profit", value: "$15,005" },
+      { label: "profit after ad spend", value: "$15,005" },
       { label: "conversions", value: "2,715" },
       { label: "peak ROI", value: "32.8%" },
     ],
@@ -170,13 +170,13 @@ export const caseStudies: CaseStudy[] = [
       "Short-form ad content for a realistic temporary tattoo brand across TikTok, Instagram Reels, and YouTube Shorts. Fast-paced, scroll-stopping, conversion-focused.",
     did: "Trend-aware, fast-paced edits emphasizing the commitment-free appeal of the product. Hook-led structure, aesthetic storytelling, on-brand pacing. Multiple winning concepts driving purchases at an efficient CPA.",
     results: [
-      { label: "store revenue", value: "€62,481" },
+      { label: "30-day store revenue", value: "£61,803" },
       { label: "CPA range", value: "$20-30" },
       { label: "FB followers", value: "13K" },
       { label: "platforms", value: "3" },
     ],
     highlight:
-      "Brand revenue dashboard showed €62,481 in total store revenue during active ad campaigns, with multiple ads driving purchases in the $20-30 CPA range.",
+      "Store dashboard showed £61,803 in total store revenue from 1,627 orders over 30 days during active ad campaigns, with multiple ads driving purchases in the $20-30 CPA range.",
     imageHint: "Shopify revenue dashboard + winning ad stills (from PDF p.3)",
     featured: true,
     hasDeepDive: true,
