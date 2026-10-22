@@ -74,7 +74,7 @@ export const deepDives: Record<string, DeepDive> = {
   },
   "grit-media": {
     slug: "grit-media",
-    gallery: ["/testimonials/grit-1.png", "/testimonials/grit-2.png", "/testimonials/grit-3.png", "/testimonials/grit-4.png"],
+    gallery: ["/work/grit-dashboard-1-month.png", "/testimonials/grit-1.png", "/testimonials/grit-2.png", "/testimonials/grit-3.png", "/testimonials/grit-4.png"],
     client: "Grit Media Collective LLC",
     tag: "US ad agency · Insurance vertical · 12 months",
     intro:
@@ -89,7 +89,7 @@ export const deepDives: Record<string, DeepDive> = {
         "The trick was treating each ad as part of a system, not a one-off. Hook libraries, B-roll libraries, voiceover libraries — all organized so a new concept could be assembled from known-working parts in hours, not days.",
       ]},
       { heading: "The results", body: [
-        "Over 12 months, 300+ short-form ads shipped. Sampling the verified winners gave 70 standout creatives accounting for $57,714 in attributed revenue and $15,005 in profit on the agency's tracked spend. 2,715 conversions across the sampled set. Peak ROI on a single creative was 32.8%.",
+        "Over 12 months, 300+ short-form ads shipped. Sampling the verified winners gave 70 standout creatives accounting for $57,714 in attributed revenue and $15,005 in profit after ad spend. 2,715 conversions across the sampled set. Peak ROI on a single creative was 32.8%. For a single month on the account, the dashboard showed $31,525 in revenue on $29,854 in spend, with 1,227 conversions at a $24.33 CPA.",
         "The headline isn't a single hero number. It's the consistency. 25 to 35 ads per month, every month, for 12 months, while maintaining quality high enough to produce verified winners across multiple concepts.",
       ]},
     ],
@@ -97,7 +97,7 @@ export const deepDives: Record<string, DeepDive> = {
       { value: "300+", label: "ads in 12 months" },
       { value: "70", label: "verified winners" },
       { value: "$57,714", label: "attributed revenue" },
-      { value: "$15,005", label: "profit" },
+      { value: "$15,005", label: "profit after ad spend" },
       { value: "2,715", label: "conversions" },
       { value: "32.8%", label: "peak ROI" },
     ],

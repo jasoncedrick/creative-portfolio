@@ -152,7 +152,7 @@ export const caseStudies: CaseStudy[] = [
       { label: "ads produced", value: "300+" },
       { label: "verified winners", value: "70" },
       { label: "attributed revenue", value: "$57,714" },
-      { label: "profit", value: "$15,005" },
+      { label: "profit after ad spend", value: "$15,005" },
       { label: "conversions", value: "2,715" },
       { label: "peak ROI", value: "32.8%" },
     ],
