@@ -2,7 +2,7 @@
 
 export const site = {
   name: "Jason Cedrick",
-  role: "Short-Form Video Creative for DTC Brands & Founders",
+  role: "Short-Form Video Ads for DTC Brands",
   email: "jcp.professional.work@gmail.com",
   whatsapp: "+639955098146",
   whatsappDisplay: "+63 995 509 8146",
@@ -17,9 +17,9 @@ export const site = {
 
 export const hero = {
   headline:
-    "Short-form video creative that drives revenue for DTC brands and grows audiences for founders.",
+    "Short-form video ads that scale DTC brands.",
   subhead:
-    "€105K in attributable client profit. 300+ ads produced in 12 months. 5 international markets. Receipts on every line.",
+    "€198K revenue and €105K profit from 52 winning ads across 5 markets. Hooks, UGC-style cuts, and localized variants, built for testing on Meta and TikTok.",
   availability:
     "Currently available for short-term projects and ongoing creative retainers.",
   reel: [

@@ -24,7 +24,7 @@ export function Hero() {
 
         <FadeIn delay={0.05}>
           <h1 className="mt-7 text-[36px] leading-[1.05] md:text-[52px] lg:text-[60px] lg:leading-[1.0] tracking-tight font-bold max-w-6xl">
-            Short-form video creative that <span className="text-[color:var(--color-red)]">drives revenue</span> for DTC brands and <span className="text-[color:var(--color-blue)]">grows audiences</span> for founders.
+            Short-form video ads that <span className="text-[color:var(--color-red)]">scale DTC brands</span>.
           </h1>
         </FadeIn>
 
