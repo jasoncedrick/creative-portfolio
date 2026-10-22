@@ -20,7 +20,7 @@ export const deepDives: Record<string, DeepDive> = {
     slug: "alessio-commerce",
     gallery: ["/testimonials/alessio-1.png", "/testimonials/alessio-2.png", "/testimonials/alessio-3.png", "/testimonials/alessio-4.png"],
     client: "Alessio Commerce Ltd",
-    tag: "DTC supplement brand · 5 international markets · 8 months",
+    tag: "DTC supplement brand · 5 international markets · 16 months",
     intro:
       "Alessio Commerce sells supplement and wellness products direct to consumers across international markets. The brief was simple to say and difficult to deliver: scale short-form ad creative output across five markets, in five different cultural contexts, without dropping performance.",
     sections: [
@@ -34,7 +34,7 @@ export const deepDives: Record<string, DeepDive> = {
         "Production was full-stack. Stock platforms, AI-generated B-roll, voiceover via tools and human VAs where it mattered, edited and delivered ready-to-launch. No raw footage required from the client.",
       ]},
       { heading: "The results", body: [
-        "Over 8 months, the pipeline shipped 52 winning ads (creatives that hit profitability targets in at least one market). Total attributable revenue was €198,222. Profit, €105,174. Purchases, 5,194. Average ROAS of 2.13x across all 52 winners.",
+        "Over 16 months, the pipeline shipped 52 winning ads (creatives that hit profitability targets in at least one market). Total attributable revenue was €198,222. Profit, €105,174. Purchases, 5,194. Average ROAS of 2.13x across all 52 winners.",
         "The standout was EnduroFlex in Germany — a single creative that drove €30,228 in revenue and €14,698 in profit from 814 purchases in 60 days at 1.95x ROAS.",
       ]},
     ],
