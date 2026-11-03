@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState, type TouchEvent } from "react";
 import Link from "next/link";
+import { portfolioVideos } from "@/lib/portfolio";
 import { caseStudies } from "@/lib/content";
 import { FadeIn } from "./FadeIn";
 
@@ -116,7 +117,7 @@ export function CaseStudies() {
           <FadeIn><p className="eyebrow">SELECTED WORK</p></FadeIn>
           <FadeIn delay={0.05}>
             <h2 className="text-[36px] md:text-[54px] leading-[1.03] tracking-tight max-w-[22ch]">
-              Seven projects across DTC, performance ads, branding, healthcare, and creator growth.
+              Projects across DTC, performance ads, branding, healthcare, and creator growth.
             </h2>
           </FadeIn>
           <FadeIn delay={0.1}>
@@ -159,7 +160,7 @@ export function CaseStudies() {
             const proof = (c.proof ?? []).filter(Boolean);
             return (
               <FadeIn key={c.slug} delay={i * 0.05}>
-                <article className="card h-full flex flex-col p-6">
+                <article id={c.slug} className="card h-full scroll-mt-24 flex flex-col p-6">
                   <p className="text-[10px] font-mono text-[color:var(--color-fg-faint)] uppercase tracking-wider">{c.tag}</p>
                   <h3 className="mt-3 text-[19px] font-semibold tracking-tight">{c.client}</h3>
                   <p className="mt-3 text-[14px] leading-relaxed text-[color:var(--color-fg-muted)] flex-1">{c.brief}</p>
@@ -171,6 +172,12 @@ export function CaseStudies() {
                       </div>
                     ))}
                   </div>
+                  {c.brandSource && <a className="mt-2 self-start text-xs text-[color:var(--color-fg-muted)] underline underline-offset-2" href={c.brandSource.href} target="_blank" rel="noreferrer">{c.brandSource.label}</a>}
+                  {c.videoCollection && (
+                    <a href={`#videos-${c.slug}`} className="mt-5 inline-flex items-center gap-2 self-start rounded-full border border-[color:var(--color-border-strong)] px-4 py-2 text-[12px] font-mono uppercase tracking-wider hover:text-[color:var(--color-red)] hover:border-[color:var(--color-red)] transition-colors">
+                      <span aria-hidden="true">▷</span> View ads ({portfolioVideos.filter(v => v.brand === c.client && v.streamId).length})
+                    </a>
+                  )}
                   {proof.length > 0 && (
                     <button
                       type="button"
