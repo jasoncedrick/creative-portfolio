@@ -11,6 +11,8 @@ export function CaseStudyVideo({ src, poster, label }: { src: string; poster: st
         src={src}
         poster={poster || undefined}
         controls
+        controlsList="nodownload"
+        onContextMenu={(event) => event.preventDefault()}
         playsInline
         preload="none"
         aria-label={label}
@@ -26,7 +28,7 @@ export function CaseStudyVideo({ src, poster, label }: { src: string; poster: st
         {label}
         {failed && (
           <p role="status" className="mt-2">
-            Video could not load. <a href={src} target="_blank" rel="noreferrer" className="underline">Open video directly</a>
+            Video could not load. Please try again.
           </p>
         )}
       </figcaption>
