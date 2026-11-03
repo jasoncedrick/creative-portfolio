@@ -9,9 +9,9 @@ const cuts = [
 const clients = [
   { slug: "arya", name: "Arya", description: "Vertical ads for Arya, from creator-led relationship stories to product walkthroughs.", cuts },
   { slug: "sawinery", name: "Sawinery", description: "Three animated holiday gift ads for woodworkers, told through a shop dog, a birthday story, and a garage game show.", cuts: [
-    { title: "The Dog Knows", label: "Shop dog tells the truth", id: process.env.SAWINERY_DOG_KNOWS },
-    { title: "Twenty Birthdays", label: "Twenty years of thank-yous", id: process.env.SAWINERY_TWENTY_BIRTHDAYS },
-    { title: "Pop Quiz", label: "Garage game show", id: process.env.SAWINERY_POP_QUIZ },
+    { title: "The Dog Knows", label: "Shop dog tells the truth", id: "b2d4ee14-b001-4c7d-9555-9a8cb15fa17f" },
+    { title: "Twenty Birthdays", label: "Twenty years of thank-yous", id: "494fa5bb-0f96-4cfa-a040-e5677333f29e" },
+    { title: "Pop Quiz", label: "Garage game show", id: "f2ac7587-338e-4cfd-b29f-146fec19b945" },
   ] },
   { slug: "rosani", name: "Rosani", description: "Three short AI creator edits from Rosani’s hair breakage campaign.", cuts: [
     { title: "Breakage · Cut 03", label: "AI UGC · 18 sec", id: "dded024a-257a-4cbb-9918-6689d76ed951" },
