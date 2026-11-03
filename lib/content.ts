@@ -115,11 +115,39 @@ export type CaseStudy = {
   image?: string;
   imageHint: string;
   featured?: boolean;
+  brandSource?: { label: string; href: string };
+  videoCollection?: boolean;
   hasDeepDive?: boolean;
   proof?: string[];
 };
 
 export const caseStudies: CaseStudy[] = [
+  {
+    slug: "arya", client: "Arya",
+    tag: "DTC · Relationship wellness · UGC",
+    brief: "Arya offers guided intimacy experiences for couples. I helped its creative team scale ad production by cutting creator footage, product demos, and alternate hooks for testing.",
+    did: "Vertical video production and editing.", imageHint: "",
+    videoCollection: true,
+    results: [{ value: "5", label: "Featured edits" }, { value: "300K+", label: "People using Arya¹" }],
+    brandSource: { label: "¹ Audience reported by Arya", href: "https://www.arya.fyi/mothersday/" },
+  },
+  {
+    slug: "sawinery", client: "Sawinery",
+    tag: "Woodworking · Holiday gifting · AI animation",
+    brief: "Sawinery makes tools and publishes reviews for woodworkers. I helped expand its holiday gift campaign with three animated stories, each edited for vertical and square placements.",
+    did: "Vertical video production and editing.", imageHint: "",
+    videoCollection: true,
+    results: [{ value: "3", label: "Ad concepts" }, { value: "2", label: "Formats per ad" }],
+    brandSource: { label: "About Sawinery", href: "https://www.sawinery.net/pages/about-us" },
+  },
+  {
+    slug: "rosani", client: "Rosani",
+    tag: "Haircare · AI UGC · Product demos",
+    brief: "Three creator-led edits from Rosani’s hair breakage campaign, pairing on-camera hooks with product and hair-detail shots.",
+    did: "Vertical video production and editing.", imageHint: "",
+    videoCollection: true,
+    results: [{ value: "3", label: "Creator edits" }, { value: "9:16", label: "Format" }],
+  },
   {
     slug: "alessio-commerce",
     client: "Alessio Commerce Ltd",
