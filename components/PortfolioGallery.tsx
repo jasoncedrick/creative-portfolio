@@ -35,7 +35,7 @@ function Player({ video, onClose }: { video: PortfolioVideo; onClose: () => void
           {video.src ? (
             <video src={video.src} poster={video.poster} controls controlsList="nodownload" onContextMenu={(event) => event.preventDefault()} autoPlay playsInline preload="metadata" onError={() => setFailed(true)} className="w-full h-full object-contain" />
           ) : (
-            <iframe src={`https://drive.google.com/file/d/${video.driveId}/preview`} title={`${video.brand}: ${video.title}`} allow="autoplay; fullscreen" allowFullScreen className="w-full h-full border-0" />
+            <iframe src={video.streamId ? `https://iframe.mediadelivery.net/embed/798402/${video.streamId}?autoplay=true` : `https://drive.google.com/file/d/${video.driveId}/preview`} title={`${video.brand}: ${video.title}`} allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowFullScreen className="w-full h-full border-0" />
           )}
         </div>
         <div className="p-4 text-sm text-[color:var(--color-fg-muted)] flex flex-wrap items-center justify-between gap-3">
@@ -51,7 +51,25 @@ export function PortfolioGallery() {
   const [category, setCategory] = useState("All work");
   const [expanded, setExpanded] = useState(false);
   const [active, setActive] = useState<PortfolioVideo | null>(null);
-  const filtered = portfolioVideos.filter((v) => category === "All work" || v.category === category);
+  const [collection, setCollection] = useState("");
+  useEffect(() => {
+    function syncCollection() {
+      const slug = window.location.hash.replace(/^#videos-/, "");
+      const match = portfolioVideos.find(v => v.streamId && v.brand.toLowerCase() === slug);
+      setCollection(match?.brand ?? "");
+      if (match) {
+        setCategory("All work");
+        setExpanded(false);
+        document.getElementById("videos")?.scrollIntoView();
+      }
+    }
+    syncCollection();
+    window.addEventListener("hashchange", syncCollection);
+    return () => window.removeEventListener("hashchange", syncCollection);
+  }, []);
+  const filtered = portfolioVideos.filter(v => collection
+    ? v.brand === collection && v.streamId
+    : category === "All work" || v.category === category);
   const visible = expanded ? filtered : filtered.slice(0, 8);
 
   return (
@@ -67,10 +85,10 @@ export function PortfolioGallery() {
         <div role="group" aria-label="Filter videos by format" className="flex flex-wrap gap-2 mt-8 mb-5">
           {categories.map((c) => {
             const count = c === "All work" ? portfolioVideos.length : portfolioVideos.filter((v) => v.category === c).length;
-            return <button key={c} type="button" aria-pressed={c === category} onClick={() => { setCategory(c); setExpanded(false); }} className={`portfolio-filter ${c === category ? "is-active" : ""}`}>{c}<span className="ml-2 opacity-65">{count}</span></button>;
+            return <button key={c} type="button" aria-pressed={c === category && !collection} onClick={() => { if (collection) window.history.replaceState(null, "", "#videos"); setCollection(""); setCategory(c); setExpanded(false); }} className={`portfolio-filter ${c === category && !collection ? "is-active" : ""}`}>{c}<span className="ml-2 opacity-65">{count}</span></button>;
           })}
         </div>
-        <p aria-live="polite" className="text-xs text-[color:var(--color-fg-muted)] mb-6">Showing {visible.length} of {filtered.length} videos</p>
+        <p aria-live="polite" className="text-xs text-[color:var(--color-fg-muted)] mb-6">{collection && <strong>{collection} · </strong>}Showing {visible.length} of {filtered.length} videos</p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 md:gap-x-5">
           {visible.map((video) => (
             <article key={video.id} className="min-w-0">

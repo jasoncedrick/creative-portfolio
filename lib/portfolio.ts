@@ -8,11 +8,45 @@ export type PortfolioVideo = {
   duration: number;
   orientation: "portrait" | "landscape";
   src?: string;
+  streamId?: string;
   driveId?: string;
 };
 
 // Titles describe the reviewed creative. Performance results belong to verified case studies.
 export const portfolioVideos: PortfolioVideo[] = [
+  {
+    "id": "arya-34fd1fb8",
+    "brand": "Arya",
+    "title": "18 Years, Still Exciting",
+    "category": "UGC ads",
+    "description": "Rachel opens with 18 years together before introducing Arya.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/34fd1fb8-5553-425e-9390-f09ea8f1d96d/thumbnail.jpg",
+    "duration": 29,
+    "orientation": "portrait",
+    "streamId": "34fd1fb8-5553-425e-9390-f09ea8f1d96d"
+  },
+  {
+    "id": "sawinery-b2d4ee14",
+    "brand": "Sawinery",
+    "title": "The Dog Knows",
+    "category": "AI animation",
+    "description": "A shop dog narrates the holiday gift story.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/b2d4ee14-b001-4c7d-9555-9a8cb15fa17f/thumbnail.jpg",
+    "duration": 78,
+    "orientation": "portrait",
+    "streamId": "b2d4ee14-b001-4c7d-9555-9a8cb15fa17f"
+  },
+  {
+    "id": "rosani-dded024a",
+    "brand": "Rosani",
+    "title": "Breakage · Cut 03",
+    "category": "AI product & UGC",
+    "description": "A creator-led hair breakage hook with a product insert.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/dded024a-257a-4cbb-9918-6689d76ed951/thumbnail.jpg",
+    "duration": 18,
+    "orientation": "portrait",
+    "streamId": "dded024a-257a-4cbb-9918-6689d76ed951"
+  },
   {
     "id": "sawinery-song",
     "brand": "Sawinery",
@@ -67,6 +101,94 @@ export const portfolioVideos: PortfolioVideo[] = [
     "duration": 92,
     "orientation": "portrait",
     "src": "https://jasonceddy.b-cdn.net/Copy%20of%20AI%20WET%20RAG%20Ad%20V2-R4.mp4.mp4"
+  },
+  {
+    "id": "arya-0f65dcdb",
+    "brand": "Arya",
+    "title": "Secret List",
+    "category": "UGC ads",
+    "description": "A text-message hook leads into the gift box and product quiz.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/0f65dcdb-c017-4334-8f6d-1ef5710b2cd6/thumbnail.jpg",
+    "duration": 64,
+    "orientation": "portrait",
+    "streamId": "0f65dcdb-c017-4334-8f6d-1ef5710b2cd6"
+  },
+  {
+    "id": "sawinery-494fa5bb",
+    "brand": "Sawinery",
+    "title": "Twenty Birthdays",
+    "category": "AI animation",
+    "description": "A woodworking gift becomes a thank-you for twenty birthdays.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/494fa5bb-0f96-4cfa-a040-e5677333f29e/thumbnail.jpg",
+    "duration": 72,
+    "orientation": "portrait",
+    "streamId": "494fa5bb-0f96-4cfa-a040-e5677333f29e"
+  },
+  {
+    "id": "rosani-ddac0e1a",
+    "brand": "Rosani",
+    "title": "Breakage · Cut 07",
+    "category": "AI product & UGC",
+    "description": "A bathroom-set creator edit for the breakage campaign.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/ddac0e1a-7146-4ff1-895f-98a0a7e512eb/thumbnail.jpg",
+    "duration": 23,
+    "orientation": "portrait",
+    "streamId": "ddac0e1a-7146-4ff1-895f-98a0a7e512eb"
+  },
+  {
+    "id": "arya-747272e5",
+    "brand": "Arya",
+    "title": "Fantasyland",
+    "category": "UGC ads",
+    "description": "A couple’s home routine sets up the Fantasyland concept.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/747272e5-141e-418a-b4d0-8bc1b6dae20e/thumbnail.jpg",
+    "duration": 58,
+    "orientation": "portrait",
+    "streamId": "747272e5-141e-418a-b4d0-8bc1b6dae20e"
+  },
+  {
+    "id": "sawinery-f2ac7587",
+    "brand": "Sawinery",
+    "title": "Pop Quiz",
+    "category": "AI animation",
+    "description": "A garage game show turns gift shopping into a quiz.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/f2ac7587-338e-4cfd-b29f-146fec19b945/thumbnail.jpg",
+    "duration": 65,
+    "orientation": "portrait",
+    "streamId": "f2ac7587-338e-4cfd-b29f-146fec19b945"
+  },
+  {
+    "id": "rosani-6beaf398",
+    "brand": "Rosani",
+    "title": "Breakage · Cut 11",
+    "category": "AI product & UGC",
+    "description": "A creator demonstrates the hair breakage angle on camera.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/6beaf398-fdb5-46ac-89a6-5658c84b1d68/thumbnail.jpg",
+    "duration": 18,
+    "orientation": "portrait",
+    "streamId": "6beaf398-fdb5-46ac-89a6-5658c84b1d68"
+  },
+  {
+    "id": "arya-8a995334",
+    "brand": "Arya",
+    "title": "Butterflies",
+    "category": "UGC ads",
+    "description": "An alternate Rachel cut built around the butterflies hook.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/8a995334-b72a-4ec9-b555-c9cb4c0cab79/thumbnail.jpg",
+    "duration": 35,
+    "orientation": "portrait",
+    "streamId": "8a995334-b72a-4ec9-b555-c9cb4c0cab79"
+  },
+  {
+    "id": "arya-6775b99f",
+    "brand": "Arya",
+    "title": "Warm, Warmer, Hot",
+    "category": "UGC ads",
+    "description": "A three-part visual hook introduces the couples’ game.",
+    "poster": "https://vz-9a10d973-317.b-cdn.net/6775b99f-7737-4d6a-85b4-3b795a325b90/thumbnail.jpg",
+    "duration": 47,
+    "orientation": "portrait",
+    "streamId": "6775b99f-7737-4d6a-85b4-3b795a325b90"
   },
   {
     "id": "temporary-inked-ai",
