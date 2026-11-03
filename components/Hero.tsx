@@ -6,7 +6,7 @@ export function Hero() {
   const waLink = `https://wa.me/${site.whatsapp.replace(/[^0-9]/g, "")}`;
 
   return (
-    <section className="relative pt-28 md:pt-32 pb-16 md:pb-20 overflow-hidden">
+    <section className="relative pt-24 md:pt-26 pb-12 md:pb-16 overflow-hidden">
       <div className="absolute inset-0 bg-grid pointer-events-none opacity-50" aria-hidden />
       <div className="absolute inset-0 bg-radial-fade pointer-events-none" aria-hidden />
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[color:var(--color-border-strong)] to-transparent" aria-hidden />
@@ -30,7 +30,8 @@ export function Hero() {
 
         <FadeIn delay={0.12}>
           <p className="mt-7 text-[16px] md:text-[18px] leading-relaxed text-[color:var(--color-fg-muted)] max-w-[56ch]">
-            {hero.subhead}
+            {hero.subhead}{" "}
+            <a href="/work/alessio-commerce" className="underline underline-offset-4 text-[color:var(--color-fg)]">See the Alessio case study</a>
           </p>
         </FadeIn>
 
@@ -53,7 +54,7 @@ export function Hero() {
         </FadeIn>
 
         <FadeIn delay={0.3}>
-          <div className="mt-14 md:mt-16">
+          <div className="mt-8 md:mt-10">
             <div className="flex items-center justify-between mb-5">
               <p className="eyebrow">SHOWREEL · 2026</p>
               <p className="text-[11px] font-mono text-[color:var(--color-fg-dim)]">{hero.reel.length} selects · vertical</p>
@@ -67,6 +68,14 @@ export function Hero() {
             </div>
           </div>
         </FadeIn>
+        <nav aria-label="Featured clients" className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-1 border-t border-white/10 pt-3">
+          <span className="eyebrow">CLIENT WORK</span>
+          {["Arya", "Sawinery", "Rosani"].map(name => (
+            <a key={name} href={`#${name.toLowerCase()}`} className="py-3 text-sm font-medium underline underline-offset-4 hover:text-[color:var(--color-red)]">
+              {name}
+            </a>
+          ))}
+        </nav>
       </div>
     </section>
   );
