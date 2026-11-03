@@ -1,4 +1,3 @@
-import { AryaShowcase } from "@/components/AryaShowcase";
 import { PortfolioGallery } from "@/components/PortfolioGallery";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
@@ -24,7 +23,6 @@ export default function HomePage() {
         <About />
         <Services />
         <CaseStudies />
-        <AryaShowcase />
         <Testimonials />
         <Process />
         <Stack />
