@@ -68,14 +68,6 @@ export function Hero() {
             </div>
           </div>
         </FadeIn>
-        <nav aria-label="Featured clients" className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-1 border-t border-white/10 pt-3">
-          <span className="eyebrow">CLIENT WORK</span>
-          {["Arya", "Sawinery", "Rosani"].map(name => (
-            <a key={name} href={`#${name.toLowerCase()}`} className="py-3 text-sm font-medium underline underline-offset-4 hover:text-[color:var(--color-red)]">
-              {name}
-            </a>
-          ))}
-        </nav>
       </div>
     </section>
   );
