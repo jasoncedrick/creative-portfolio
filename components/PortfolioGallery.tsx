@@ -21,7 +21,6 @@ function Player({ video, onClose }: { video: PortfolioVideo; onClose: () => void
     };
   }, []);
 
-  const source = video.src ?? `https://drive.google.com/file/d/${video.driveId}/view`;
   return (
     <dialog ref={dialog} aria-labelledby="portfolio-player-title" className="portfolio-dialog" onCancel={onClose} onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
       <div className="portfolio-player-shell">
@@ -34,14 +33,14 @@ function Player({ video, onClose }: { video: PortfolioVideo; onClose: () => void
         </div>
         <div className={`portfolio-player-media ${video.orientation === "landscape" ? "is-landscape" : ""}`}>
           {video.src ? (
-            <video src={video.src} poster={video.poster} controls autoPlay playsInline preload="metadata" onError={() => setFailed(true)} className="w-full h-full object-contain" />
+            <video src={video.src} poster={video.poster} controls controlsList="nodownload" onContextMenu={(event) => event.preventDefault()} autoPlay playsInline preload="metadata" onError={() => setFailed(true)} className="w-full h-full object-contain" />
           ) : (
             <iframe src={`https://drive.google.com/file/d/${video.driveId}/preview`} title={`${video.brand}: ${video.title}`} allow="autoplay; fullscreen" allowFullScreen className="w-full h-full border-0" />
           )}
         </div>
         <div className="p-4 text-sm text-[color:var(--color-fg-muted)] flex flex-wrap items-center justify-between gap-3">
-          <p>{failed ? "The player could not load this video. Open it directly below." : video.description}</p>
-          <a href={source} target="_blank" rel="noreferrer" className="text-white underline underline-offset-4">Open video ↗</a>
+          <p>{failed ? "The player could not load this video. Please try again." : video.description}</p>
+
         </div>
       </div>
     </dialog>
