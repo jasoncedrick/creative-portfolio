@@ -1,9 +1,9 @@
 const cuts = [
-  { title: "18 Years, Still Exciting", label: "Rachel · UGC", id: process.env.ARYA_RACHEL_18_YEARS },
-  { title: "Secret List", label: "Campaign master", id: process.env.ARYA_SECRET_LIST },
-  { title: "Fantasyland", label: "Campaign master", id: process.env.ARYA_FANTASYLAND },
-  { title: "Butterflies", label: "Rachel · Alternate hook", id: process.env.ARYA_RACHEL_BUTTERFLIES },
-  { title: "Warm, Warmer, Hot", label: "Campaign master", id: process.env.ARYA_WARM_WARMER_HOT },
+  { title: "18 Years, Still Exciting", label: "Rachel · UGC", id: "34fd1fb8-5553-425e-9390-f09ea8f1d96d" },
+  { title: "Secret List", label: "Campaign master", id: "0f65dcdb-c017-4334-8f6d-1ef5710b2cd6" },
+  { title: "Fantasyland", label: "Campaign master", id: "747272e5-141e-418a-b4d0-8bc1b6dae20e" },
+  { title: "Butterflies", label: "Rachel · Alternate hook", id: "8a995334-b72a-4ec9-b555-c9cb4c0cab79" },
+  { title: "Warm, Warmer, Hot", label: "Campaign master", id: "6775b99f-7737-4d6a-85b4-3b795a325b90" },
 ];
 
 const clients = [
@@ -14,14 +14,14 @@ const clients = [
     { title: "Pop Quiz", label: "Garage game show", id: process.env.SAWINERY_POP_QUIZ },
   ] },
   { slug: "rosani", name: "Rosani", description: "Three short AI creator edits from Rosani’s hair breakage campaign.", cuts: [
-    { title: "Breakage · Cut 03", label: "AI UGC · 18 sec", id: process.env.ROSANI_BREAKAGE_03 },
-    { title: "Breakage · Cut 07", label: "AI UGC · 23 sec", id: process.env.ROSANI_BREAKAGE_07 },
-    { title: "Breakage · Cut 11", label: "AI UGC · 18 sec", id: process.env.ROSANI_BREAKAGE_11 },
+    { title: "Breakage · Cut 03", label: "AI UGC · 18 sec", id: "dded024a-257a-4cbb-9918-6689d76ed951" },
+    { title: "Breakage · Cut 07", label: "AI UGC · 23 sec", id: "ddac0e1a-7146-4ff1-895f-98a0a7e512eb" },
+    { title: "Breakage · Cut 11", label: "AI UGC · 18 sec", id: "6beaf398-fdb5-46ac-89a6-5658c84b1d68" },
   ] },
 ];
 
 export function AryaShowcase() {
-  const library = process.env.PORTFOLIO_STREAM_LIBRARY_ID ?? process.env.ARYA_STREAM_LIBRARY_ID;
+  const library = "798402";
   const uuid = /^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i;
   if (!library || !/^\d+$/.test(library)) return null;
 
